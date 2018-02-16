@@ -177,9 +177,15 @@ a.resgate:hover {
 publications
 ==================================== */
 .pub-content {
+    padding:60px 0 60px;
+}
+
+.pub-content {
     background:transparent;
     position:relative;
-    padding:0px 300px 0px 300px;
+    margin-left:300px;
+	margin-right:300px;
+    padding:40px 0px 0px 0px;
 }
 
 .pub-content h5 {
