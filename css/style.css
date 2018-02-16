@@ -177,18 +177,13 @@ a.resgate:hover {
 publications
 ==================================== */
 .pub-content {
-    padding:60px 0 60px;
-}
-
-.pub-content {
     background:transparent;
     position:relative;
-    margin-left:60px;
-    padding:40px 60px 0px 0px;
+    padding:0px 300px 0px 300px;
 }
 
-.pub-content h4 {
-    margin-bottom: 10px;
+.pub-content h5 {
+    margin-bottom: 0px;
 }
 
 .table-borderless > tbody > tr > td,
@@ -201,6 +196,6 @@ publications
 }
 
 .table > tbody > tr > td {
-    font-size: 16px;
+    font-size: 14px;
     vertical-align: middle;
 }
