@@ -183,13 +183,12 @@ publications
 .pub-content {
     background:transparent;
     position:relative;
-    margin-left:300px;
-	margin-right:300px;
-    padding:40px 0px 0px 0px;
+    margin-left:60px;
+    padding:40px 60px 0px 0px;
 }
 
-.pub-content h5 {
-    margin-bottom: 0px;
+.pub-content h4 {
+    margin-bottom: 10px;
 }
 
 .table-borderless > tbody > tr > td,
