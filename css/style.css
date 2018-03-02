@@ -176,18 +176,50 @@ a.resgate:hover {
 /* ===================================
 publications
 ==================================== */
-.pub-content {
+.pubs-content {
     padding:60px 0 60px;
 }
 
-.pub-content {
+.pubs-content {
     background:transparent;
     position:relative;
-    margin-left:60px;
-    padding:40px 60px 0px 0px;
+    margin-left:0px;
+    padding:40px 400px 0px 400px;
 }
 
-.pub-content h4 {
+.pubs-content h5 {
+    margin-bottom: 10px;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.table > tbody > tr > td {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* ===================================
+code
+==================================== */
+.code-content {
+    padding:60px 0 60px;
+}
+
+.code-content {
+    background:transparent;
+    position:relative;
+    margin-left:0px;
+    padding:40px 400px 0px 400px;
+}
+
+.code-content h5 {
     margin-bottom: 10px;
 }
 
