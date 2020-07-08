@@ -35,8 +35,8 @@
 
     <div id="navbar" class="navbar-collapse collapse">
         <div class="navbar navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="index.html">About</a>
-            <a class="nav-item nav-link" href="pubs.html">Publications</a>
+            <a class="nav-item nav-link" href="index.html">Bio</a>
+            <a class="nav-item nav-link" href="pubs.html">Pubs</a>
             <a class="nav-item nav-link" href="#">Code</a>
         </div>
     </div>
@@ -55,19 +55,13 @@
             <td class="col-md-9">
             <h5><a href="https://github.com/mickcrosse/mTRF-Toolbox" 
 				style="color: #003399">mTRF-Toolbox</a></h5>
-			mTRF-Toolbox is a system identification toolbox that permits the 
-			fast computation of the linear stimulus-response mapping of a 
-			sensory system in the forward or backward direction. Forward 
-			modelling can be used to estimate multivariate temporal response 
-			functions (mTRFs) that describe the mapping between user-defined 
-			stimulus features and multi-channel neural recordings, or to predict 
-			the spectrotemporal dynamics of neural responses to novel stimuli. 
-			Backward modelling can be used to perform stimulus reconstruction by 
-			mapping the multivariate population responses back to the features 
-			of the causal stimulus. mTRF Toolbox facilitates the study of 
-			ecologically-relevant stimuli such as speech, music or motion, and 
-			is suitable for analysing different types of electrophysiological 
-			signals including EEG, MEG, ECoG and EMG.
+			mTRF-Toolbox is a MATLAB package for quantitative modelling of sensory 
+			processing, suitable for neurophysiological data such as MEG, EEG, 
+			sEEG, ECoG and EMG. It can be used to model the functional relationship 
+			between neuronal populations and dynamic sensory inputs such as natural 
+			scenes and sounds, or build neural decoders for reconstructing stimulus 
+			features and developing real-time applications such as brain-computer 
+			interfaces (BCIs).
             </td>
             </tr>
 			
@@ -75,16 +69,23 @@
             <td class="col-md-9">
             <h5><a href="https://github.com/mickcrosse/RaceModel" 
 				style="color: #003399">RaceModel</a></h5>
-			RaceModel is a psychophysics toolbox for testing the race model on 
-			reaction times (RTs) generated using a redundant signals paradigm. 
-			Bi- or tri-sensory RT distributions can be compared the statistical 
-			facilitation predicted by the unisensory RT distributions. The race 
-			model can be generated under the assumption that RTs on separate 
-			sensory channels are statistically independent (Raab's model), 
-			perfectly negatively dependent (Miller's bound) or perfectly 
-			positively dependent (Grice's bound). RaceModel provides rountines 
-			for computing geometric measures of multisensory gain, empirical and 
-			predicted benefits as well as modality switch effects.
+			RaceModel is a MATLAB package for stochastic modelling of multisensory 
+			reaction times (RTs). It can be used to build parallel models of multisensory 
+			information processing for both OR and AND task designs (e.g., the race model), 
+			as well as bisensory and trisensory paradigms. Parallel models can be generated 
+			under the assumption that RTs on separate sensory channels are stochastically 
+			independent (independent race model), perfectly negatively dependent (Miller's 
+			bound) or perfectly positively dependent (Grice's bound), and can be tested 
+			using either the vertical or horizontal method. Separate functions provide 
+			geometric measures of multisensory gain, multisensory benefit (Otto et al., 2013) 
+			and modality switch effects.
+
+			RaceModel also includes a systems factorial technology framework for inferring 
+			system architecture and measuring the workload capacity of a system as per Townsend 
+			& Nozawa (1995). The latter can also be assessed for OR/AND tasks and 
+			bisensory/trisensory paradigms. System architecture can also be examined using a 
+			novel framework for biasing the stopping rule (Crosse et al., 2019). The toolbox 
+			also includes an outlier correction procedure for cleaning data prior to testing.
             </td>
             </tr>
 			
@@ -92,17 +93,15 @@
             <td class="col-md-9">
             <h5><a href="https://github.com/mickcrosse/PERMUTOOLS" 
 				style="color: #003399">PERMUTOOLS</a></h5>
-			PERMUTOOLS is a statistical software package for multivariate 
-			permutation testing. By comparing the magnitude of the test 
-			statistic of interest with those obtained using permutations of the 
-			data, it provides powerful, distribution-free hypothesis testing. 
-			Family-wise error rate is controlled using the maximum statistic 
-			method, making it suitable for multivariate or multiple permutation 
-			tests. PERMUTOOLS offers a range of test statistics including the 
-			t-statistic (paired, unpaired), the F-statistic (unpaired), the 
-			correlation coefficient (Pearson, Spearman), as well as measures of 
-			effect size with bootstrapped confidence intervals (Cohen's d, 
-			Hedges' g, Glass' delta). 
+			PERMUTOOLS is a statistical software package for multivariate permutation 
+			testing in MATLAB. By comparing the magnitude of the test statistic of 
+			interest with those obtained using permutations of the data, it provides powerful, 
+			distribution-free hypothesis testing. Family-wise error rate is controlled using 
+			the maximum statistic method, making it suitable for multivariate or multiple 
+			permutation tests. PERMUTOOLS offers a range of test statistics including the 
+			t-statistic (paired, unpaired), the F-statistic (unpaired), the correlation 
+			coefficient (Pearson, Spearman), as well as measures of effect size with bootstrapped 
+			confidence intervals (Cohen's d, Hedges' g, Glass' delta).
             </td>
             </tr>
 			
